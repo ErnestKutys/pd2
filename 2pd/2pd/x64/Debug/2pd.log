@@ -1,0 +1,3 @@
+﻿  2pd.cpp
+C:\Users\Ernest\Desktop\2pd\2pd\2pd.cpp(15,9): warning C4101: 'tempint': unreferenced local variable
+  2pd.vcxproj -> C:\Users\Ernest\Desktop\2pd\x64\Debug\2pd.exe

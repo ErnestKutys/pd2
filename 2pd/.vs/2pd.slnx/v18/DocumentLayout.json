@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ernest\\Desktop\\2pd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C21FBA8D-9232-4934-838D-80E9CD594B77}|2pd\\2pd.vcxproj|C:\\Users\\Ernest\\Desktop\\2pd\\2pd\\2pd.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C21FBA8D-9232-4934-838D-80E9CD594B77}|2pd\\2pd.vcxproj|solutionrelative:2pd\\2pd.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "2pd.cpp",
+              "DocumentMoniker": "C:\\Users\\Ernest\\Desktop\\2pd\\2pd\\2pd.cpp",
+              "RelativeDocumentMoniker": "2pd\\2pd.cpp",
+              "ToolTip": "C:\\Users\\Ernest\\Desktop\\2pd\\2pd\\2pd.cpp",
+              "RelativeToolTip": "2pd\\2pd.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAFwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-06T06:42:28.482Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
