@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+    //kintamieji
     int mokiniuKiekis = 0;
     string mokiniai[100];
     int pazymiai[100][10];
@@ -13,7 +14,7 @@ int main()
 
     string temp;
     int tempint;
-    while (pasirinkimas != 0)
+    while (pasirinkimas != 0)  // ciklas veikia kol nepasirenkama 0
     {
         // meniu:
         cout << "Pasirinkite veiksma:" << endl;
@@ -26,11 +27,12 @@ int main()
         cout << "0 - Iseiti." << endl;
         cout << "-------------------------------------------------" << endl;
         cout << "Iveskite veiksma: " << endl;
+        // ivedamas pasirinkimas
         cin >> pasirinkimas;
 
         switch (pasirinkimas)
         {
-        case 1:
+        case 1: //prideti mokini
             cout << "Jus pasirinkote prideti mokini." << endl;
             cout << "Iveskite vardus ir kiek pazymius: " << endl;
 
@@ -46,7 +48,7 @@ int main()
             }
             mokiniuKiekis++;
             break;
-        case 2:
+        case 2: //parodyti visus mokinius
             cout << "Jus pasirinkote parodyti visus mokinius." << endl;
             for (int i = 0; i < mokiniuKiekis; i++)
             {
@@ -58,7 +60,7 @@ int main()
                 cout << endl;
             }
             break;
-        case 3:
+        case 3://parodyti vieno mokinio pazymius
             cout << "Jus pasirinkote parodyti vieno mokinio pazymius." << endl;
             cout << "Iveskite mokinio varda: " << endl;
             cin >> temp;
@@ -75,7 +77,7 @@ int main()
                 }
             }
             break;
-        case 4:
+        case 4://pasikeisti pazymi
             cout << "Jus pasirinkote pasikeisti pazymi." << endl;
             cout << "Iveskite mokinio varda: " << endl;
             cin >> temp;
@@ -95,7 +97,7 @@ int main()
                 }
             }
             break;
-        case 5:
+        case 5://istrinti mokini
             int temp1;
             int temp2;
             temp2 = -1;
